@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Thinh Diary</title>
+	<link rel="stylesheet" href="w2.css">
+	<script src = "w2.js"></script>
+</head>
+<body>
+	
+	<h2 style="text-align:center">Some great moments </h2>
+
+<div class="row">
+  <div class="column">
+    <img src="img/z5548374011332_27ccf8082409afbebcb1ef853625883f.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/z5548369606449_d11f8912d37ed46015c6b814c7ad12bf.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/z5548369605699_4ba322b88d86e39fedbebecfe0e7c6ab.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/z5548338746933_8bd8ba412ace91c5dd8850a1af5e5708.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/z5548338744034_5e5c186d1a58df1805c35606912fc66c.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/z5548338740550_45a2feb1d1d51e9395e415ee5d79e026.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/z5548338739126_954ff2316e46dcf323b3ad5f98e47c33.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/z5548338735685_5ffaa2cd4ddb4fb7594bbfbf9ebcd919.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="img/z5548374011332_27ccf8082409afbebcb1ef853625883f.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="img/z5548369606449_d11f8912d37ed46015c6b814c7ad12bf.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="img/z5548369605699_4ba322b88d86e39fedbebecfe0e7c6ab.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="img/z5548338746933_8bd8ba412ace91c5dd8850a1af5e5708.jpg" style="width:100%">
+    </div>
+
+	<div class="mySlides">
+		<div class="numbertext">5 / 8</div>
+		<img src="img/z5548338744034_5e5c186d1a58df1805c35606912fc66c.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">6 / 8</div>
+		<img src="img/z5548338740550_45a2feb1d1d51e9395e415ee5d79e026.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">7 / 8</div>
+		<img src="img/z5548338739126_954ff2316e46dcf323b3ad5f98e47c33.jpg" style="width:100%">
+	  </div>
+	  
+	  <div class="mySlides">
+		<div class="numbertext">8 / 8</div>
+		<img src="img/z5548338735685_5ffaa2cd4ddb4fb7594bbfbf9ebcd919.jpg" style="width:100%">
+	  </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="img/z5548374011332_27ccf8082409afbebcb1ef853625883f.jpg" style="width:100%" onclick="currentSlide(1)" alt="my life1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/z5548369606449_d11f8912d37ed46015c6b814c7ad12bf.jpg" style="width:100%" onclick="currentSlide(2)" alt="my life2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/z5548369605699_4ba322b88d86e39fedbebecfe0e7c6ab.jpg" style="width:100%" onclick="currentSlide(3)" alt="my life3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/z5548338746933_8bd8ba412ace91c5dd8850a1af5e5708.jpg" style="width:100%" onclick="currentSlide(4)" alt="my life4">
+    </div>
+	<div class="column">
+		<img class="demo cursor" src="img/z5548338744034_5e5c186d1a58df1805c35606912fc66c.jpg" style="width:100%" onclick="currentSlide(5)" alt="my life5">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="img/z5548338740550_45a2feb1d1d51e9395e415ee5d79e026.jpg" style="width:100%" onclick="currentSlide(6)" alt="my life6">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="img/z5548338739126_954ff2316e46dcf323b3ad5f98e47c33.jpg" style="width:100%" onclick="currentSlide(7)" alt="my life7">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="img/z5548338735685_5ffaa2cd4ddb4fb7594bbfbf9ebcd919.jpg" style="width:100%" onclick="currentSlide(8)" alt="my life8">
+	  </div>
+  </div>
+</div>
+
+
+    
+</body>
+</html>
